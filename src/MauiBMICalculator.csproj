@@ -39,6 +39,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <AndroidResource Remove="Platforms\Android\Resources\values\attrs.xml" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <None Remove="Views\" />
 	  <None Remove="SkiaSharp.Views.Maui.Controls" />
 	  <None Remove="Resources\Styles\" />
